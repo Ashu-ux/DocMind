@@ -8,7 +8,7 @@
 // ── CONFIG ──────────────────────────────────────────────────────────
 // Docker mode  → API_BASE = ''         (nginx proxies /api/* → backend:8000)
 // Local dev    → API_BASE = 'http://localhost:8000'
-const API_BASE = '';
+const API_BASE = 'https://docmind-sc7n.onrender.com/';
 
 // ── STATE ────────────────────────────────────────────────────────────
 const state = {
